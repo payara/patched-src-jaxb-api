@@ -244,6 +244,7 @@ Use is subject to <a href="{@docRoot}/doc-files/speclicense.html" target="_top">
                                         cardinality:=multiple;resolution:=optional
                                   ]]>
                                 </Require-Capability>
+                                <_noimportjava>true</_noimportjava>
                             </instructions>
                         </configuration>
                     </execution>
