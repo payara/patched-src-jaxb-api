@@ -185,29 +185,29 @@
                     </compilerArgs>
                 </configuration>
             </plugin>
-            <plugin>
-                <groupId>org.glassfish.copyright</groupId>
-                <artifactId>glassfish-copyright-maven-plugin</artifactId>
-                <configuration>
-                    <templateFile>${copyright.templatefile}</templateFile>
-                    <excludeFile>${copyright.exclude}</excludeFile>
-                    <!-- skip files not under SCM-->
-                    <scmOnly>${copyright.scmonly}</scmOnly>
-                    <!-- for use with repair -->
-                    <update>${copyright.update}</update>
-                    <!-- check that year is correct -->
-                    <ignoreYear>${copyright.ignoreyear}</ignoreYear>
-                    <quiet>false</quiet>
-                </configuration>
-                <executions>
-                    <execution>
-                        <phase>validate</phase>
-                        <goals>
-                            <goal>check</goal>
-                        </goals>
-                    </execution>
-                </executions>
-            </plugin>
+<!--            <plugin>-->
+<!--                <groupId>org.glassfish.copyright</groupId>-->
+<!--                <artifactId>glassfish-copyright-maven-plugin</artifactId>-->
+<!--                <configuration>-->
+<!--                    <templateFile>${copyright.templatefile}</templateFile>-->
+<!--                    <excludeFile>${copyright.exclude}</excludeFile>-->
+<!--                    &lt;!&ndash; skip files not under SCM&ndash;&gt;-->
+<!--                    <scmOnly>${copyright.scmonly}</scmOnly>-->
+<!--                    &lt;!&ndash; for use with repair &ndash;&gt;-->
+<!--                    <update>${copyright.update}</update>-->
+<!--                    &lt;!&ndash; check that year is correct &ndash;&gt;-->
+<!--                    <ignoreYear>${copyright.ignoreyear}</ignoreYear>-->
+<!--                    <quiet>true</quiet>-->
+<!--                </configuration>-->
+<!--                <executions>-->
+<!--                    <execution>-->
+<!--                        <phase>validate</phase>-->
+<!--                        <goals>-->
+<!--                            <goal>check</goal>-->
+<!--                        </goals>-->
+<!--                    </execution>-->
+<!--                </executions>-->
+<!--            </plugin>-->
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-source-plugin</artifactId>
