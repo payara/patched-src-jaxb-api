@@ -15,7 +15,7 @@
     <parent>
         <artifactId>jakarta.xml.bind-api-parent</artifactId>
         <groupId>jakarta.xml.bind</groupId>
-        <version>4.0.1.payara-p1-SNAPSHOT</version>
+        <version>4.0.1.payara-p1</version>
         <relativePath>../pom.xml</relativePath>
     </parent>
     <modelVersion>4.0.0</modelVersion>
@@ -244,6 +244,7 @@ Use is subject to <a href="{@docRoot}/doc-files/speclicense.html" target="_top">
                                         cardinality:=multiple;resolution:=optional
                                   ]]>
                                 </Require-Capability>
+                                <_noimportjava>true</_noimportjava>
                             </instructions>
                         </configuration>
                     </execution>
